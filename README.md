@@ -1,6 +1,12 @@
 # API-Caching-Redis-Python-ALB
 
-## Create network
+This is a project written using Flask to obtain the geolocation of an IP address using ipstack (IP Geolocation API) and redis.
+
+## Prerequisites
+
+- API Access Key from [ipstack](https://ipstack.com/)
+
+## Create bridge network
 
 ```
 # docker network create mynetwork
